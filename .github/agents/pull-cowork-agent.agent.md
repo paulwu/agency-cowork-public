@@ -20,8 +20,25 @@ repo into this private workspace.
 
 | Setting | Value |
 |---------|-------|
-| **Source repo** | `paulwu/agency-cowork-public` |
-| **Local workspace** | `C:\AgencyCowork\Agency-Cowork` |
+| **Source repo** | `paulwu/agency-cowork-public` (GitHub) |
+| **Local workspace** | Current working directory (detected via `git rev-parse`) |
+| **Local public repo cache** | `$HOME/.copilot/repos/agency-cowork-public` |
+
+### Path Resolution (run FIRST)
+
+Detect paths dynamically. Do NOT hardcode absolute paths.
+
+```powershell
+# Private repo (local workspace): detect from git
+$PRIVATE_REPO = git rev-parse --show-toplevel
+
+# Public repo cache: well-known user-level location
+$PUBLIC_REPO = Join-Path $HOME ".copilot" "repos" "agency-cowork-public"
+```
+
+Use `$PRIVATE_REPO` as the local workspace root throughout all steps.
+The repo may be cloned at any location — the path resolution handles this
+automatically.
 
 ## Default Artifact Catalog
 
@@ -133,7 +150,7 @@ If the file does NOT exist locally, proceed directly to Step 5.
 ✅ Pulled from agency-cowork-public
 
   Source: .github/agents/hub-closeout.agent.md
-  Saved:  C:\AgencyCowork\Agency-Cowork\.github\agents\hub-closeout.agent.md
+  Saved:  {PRIVATE_REPO}\.github\agents\hub-closeout.agent.md
   Size:   14.3 KB
 
   Public URL: https://github.com/paulwu/agency-cowork-public/blob/main/.github/agents/hub-closeout.agent.md
