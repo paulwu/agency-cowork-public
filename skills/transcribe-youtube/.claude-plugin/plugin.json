@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0",
+  "keywords": [
+    "youtube",
+    "transcript",
+    "transcribe",
+    "video",
+    "captions",
+    "subtitles",
+    "yt-dlp"
+  ],
+  "description": "Extract and clean YouTube video transcripts into readable markdown",
+  "author": {
+    "email": "",
+    "name": "Agency Cowork"
+  },
+  "name": "transcribe-youtube"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "hub-close-out-email",
+  "bundled": true,
+  "version": "1.0.0",
+  "description": "Generate Innovation Hub session close-out thank-you emails",
+  "userDataPaths": [],
+  "userConfigPaths": []
+}

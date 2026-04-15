@@ -1,0 +1,8 @@
+{
+  "category": "communication",
+  "engines": [
+    "claude",
+    "copilot"
+  ],
+  "author": "user@example.com"
+}

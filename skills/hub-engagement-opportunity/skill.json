@@ -1,0 +1,8 @@
+{
+  "name": "hub-engagement-opportunity",
+  "bundled": true,
+  "version": "1.0.0",
+  "description": "List CEHub engagements with associated MSX opportunities",
+  "userDataPaths": [],
+  "userConfigPaths": []
+}

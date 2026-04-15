@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "keywords": [
+    "hub",
+    "survey",
+    "report",
+    "hub report",
+    "survey SE",
+    "hub context",
+    "innovation hub",
+    "engagement survey",
+    "NSAT",
+    "CSAT",
+    "power bi"
+  ],
+  "description": "Extract Hub Report Survey - SE data from Power BI and save as markdown",
+  "author": {
+    "email": "",
+    "name": "Agency Cowork"
+  },
+  "name": "hub-survey-report"
+}

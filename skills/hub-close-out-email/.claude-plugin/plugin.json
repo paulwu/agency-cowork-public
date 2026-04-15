@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "keywords": [
+    "hub",
+    "close-out",
+    "closeout",
+    "thank-you",
+    "follow-up",
+    "innovation hub",
+    "session",
+    "engagement"
+  ],
+  "description": "Generate Innovation Hub session close-out thank-you emails",
+  "author": {
+    "email": "",
+    "name": "Agency Cowork"
+  },
+  "name": "hub-close-out-email"
+}

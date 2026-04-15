@@ -1,0 +1,8 @@
+{
+  "name": "transcribe-youtube",
+  "bundled": true,
+  "version": "1.0.0",
+  "description": "Extract and clean YouTube video transcripts into readable markdown",
+  "userDataPaths": [],
+  "userConfigPaths": []
+}

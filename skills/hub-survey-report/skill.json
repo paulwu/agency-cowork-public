@@ -1,0 +1,8 @@
+{
+  "name": "hub-survey-report",
+  "bundled": true,
+  "version": "1.0.0",
+  "description": "Extract Hub Report Survey - SE data from Power BI and save as markdown",
+  "userDataPaths": [],
+  "userConfigPaths": []
+}
