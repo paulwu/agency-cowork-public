@@ -1,12 +1,12 @@
 # Agency Cowork Public
 
-This repository contains reusable artifacts—such as custom Copilot agent definitions—that can be pulled into any [Agency Cowork](https://github.com/paulwu/agency-cowork-public) project.
+This repository contains reusable artifacts—such as custom Copilot agent definitions—that can be pulled into any Agency Cowork project.
 
 ## Getting Started
 
 ### Prerequisites
 
-- A GitHub repository with [Agency Copilot CLI](https://docs.github.com/en/copilot) set up.
+- A GitHub repository with the Agency Copilot CLI set up.
 
 ### 1. Create the Pull Cowork Agent
 
