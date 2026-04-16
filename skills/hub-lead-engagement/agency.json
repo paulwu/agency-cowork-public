@@ -1,8 +1,0 @@
-{
-  "category": "reporting",
-  "engines": [
-    "claude",
-    "copilot"
-  ],
-  "author": "Paul Wu"
-}
