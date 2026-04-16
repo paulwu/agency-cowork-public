@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0",
+  "keywords": [
+    "teams",
+    "meeting",
+    "chat",
+    "export",
+    "conversation",
+    "download",
+    "transcript"
+  ],
+  "description": "Export Teams meeting chat conversations to markdown files. Retrieves chat messages from Teams meetings via WorkIQ and optionally Teams MCP, formats them as clean markdown with metadata, and saves to a local file.",
+  "author": {
+    "name": "Paul Wu"
+  },
+  "name": "teams-chat-export"
+}

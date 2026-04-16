@@ -1,9 +1,6 @@
 {
   "category": "productivity",
-  "engines": [
-    "claude",
-    "copilot"
-  ],
+  "engines": ["claude", "copilot"],
   "author": "Paul Wu",
   "portable": true
 }

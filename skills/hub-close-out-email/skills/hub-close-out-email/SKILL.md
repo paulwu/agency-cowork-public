@@ -15,7 +15,7 @@ This skill generates a concise, professional thank-you email on behalf of the Ir
 
 Prompt the user for the following inputs. Use the `ask_user` tool for each — do not assume or fabricate any values.
 
-1. **Customer name** — The customer or organization name (e.g., "Contoso", "Contoso")
+1. **Customer name** — The customer or organization name (e.g., "Contoso", "Northwind Traders")
 2. **Session date** — The date of the session (e.g., "March 31, 2026")
 3. **Session length** — One of:
    - `single session` (half-day or less)

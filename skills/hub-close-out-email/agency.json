@@ -4,5 +4,6 @@
     "claude",
     "copilot"
   ],
-  "author": "Paul Wu"
+  "author": "Paul Wu",
+  "portable": true
 }

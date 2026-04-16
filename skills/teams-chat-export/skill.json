@@ -1,0 +1,8 @@
+{
+  "name": "teams-chat-export",
+  "bundled": false,
+  "version": "1.0.0",
+  "description": "Export Teams meeting chat conversations to markdown files",
+  "userDataPaths": [],
+  "userConfigPaths": []
+}

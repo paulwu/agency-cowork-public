@@ -25,8 +25,14 @@ more reliable.
 pip install yt-dlp
 ```
 
-The executable installs to `C:\Users\pawu\AppData\Roaming\Python\Python313\Scripts\yt-dlp.exe`.
-If not on PATH, use the full path.
+After installing, verify it's accessible:
+
+```powershell
+yt-dlp --version
+```
+
+If `yt-dlp` is not on PATH, locate it with `where.exe yt-dlp` (Windows) or
+`which yt-dlp` (macOS/Linux) and use the full path.
 
 ## Workflow
 
@@ -55,8 +61,8 @@ Default location is the `outputs/` folder.
 Run `yt-dlp` to download auto-generated subtitles in VTT format:
 
 ```powershell
-$ytdlp = "C:\Users\pawu\AppData\Roaming\Python\Python313\Scripts\yt-dlp.exe"
-& $ytdlp --write-auto-sub --sub-lang en --skip-download --sub-format vtt -o "outputs/temp-{video_id}" "{youtube_url}"
+# Locate yt-dlp (use 'where.exe yt-dlp' if not on PATH)
+yt-dlp --write-auto-sub --sub-lang en --skip-download --sub-format vtt -o "outputs/temp-{video_id}" "{youtube_url}"
 ```
 
 **Flags explained:**
